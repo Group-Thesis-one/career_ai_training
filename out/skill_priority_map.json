@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "note": "Trained locally from roles.json synthetic data. Global skill importance derived from model coefficients.",
+  "skills": [
+    {
+      "skill": "git",
+      "importance": 158.825395
+    },
+    {
+      "skill": "sql",
+      "importance": 156.862166
+    },
+    {
+      "skill": "rest api",
+      "importance": 151.870513
+    },
+    {
+      "skill": "docker",
+      "importance": 132.50915
+    },
+    {
+      "skill": "linux",
+      "importance": 131.894172
+    },
+    {
+      "skill": "ui design",
+      "importance": 112.521447
+    },
+    {
+      "skill": "communication",
+      "importance": 110.720625
+    },
+    {
+      "skill": "testing",
+      "importance": 110.189703
+    },
+    {
+      "skill": "networking",
+      "importance": 108.557556
+    },
+    {
+      "skill": "ci/cd",
+      "importance": 94.91989
+    },
+    {
+      "skill": "data analysis",
+      "importance": 94.693946
+    },
+    {
+      "skill": "python",
+      "importance": 94.629952
+    },
+    {
+      "skill": "security basics",
+      "importance": 94.572697
+    },
+    {
+      "skill": "mvvm",
+      "importance": 93.175516
+    },
+    {
+      "skill": "firebase firestore",
+      "importance": 88.924455
+    },
+    {
+      "skill": "agile",
+      "importance": 79.954527
+    },
+    {
+      "skill": "documentation",
+      "importance": 79.768691
+    },
+    {
+      "skill": "requirements",
+      "importance": 79.768043
+    },
+    {
+      "skill": "postman",
+      "importance": 79.365843
+    },
+    {
+      "skill": "programming",
+      "importance": 79.196817
+    },
+    {
+      "skill": "analytics",
+      "importance": 79.190285
+    },
+    {
+      "skill": "api testing",
+      "importance": 78.714435
+    },
+    {
+      "skill": "problem solving",
+      "importance": 78.712302
+    },
+    {
+      "skill": "nodejs",
+      "importance": 78.582092
+    },
+    {
+      "skill": "troubleshooting",
+      "importance": 78.55424
+    },
+    {
+      "skill": "machine learning",
+      "importance": 78.423813
+    },
+    {
+      "skill": "jwt",
+      "importance": 78.420824
+    },
+    {
+      "skill": "backup",
+      "importance": 78.228655
+    },
+    {
+      "skill": "postgresql",
+      "importance": 78.069689
+    },
+    {
+      "skill": "statistics",
+      "importance": 78.033845
+    },
+    {
+      "skill": "data visualization",
+      "importance": 77.965199
+    },
+    {
+      "skill": "react",
+      "importance": 77.404097
+    },
+    {
+      "skill": "kotlin",
+      "importance": 77.143705
+    },
+    {
+      "skill": "javascript",
+      "importance": 77.139155
+    },
+    {
+      "skill": "cloud",
+      "importance": 76.538997
+    },
+    {
+      "skill": "jetpack compose",
+      "importance": 76.522951
+    },
+    {
+      "skill": "kubernetes",
+      "importance": 76.48238
+    },
+    {
+      "skill": "firebase auth",
+      "importance": 74.55035
+    },
+    {
+      "skill": "figma",
+      "importance": 61.613836
+    },
+    {
+      "skill": "ux research",
+      "importance": 61.125722
+    },
+    {
+      "skill": "wireframing",
+      "importance": 60.843085
+    },
+    {
+      "skill": "accessibility",
+      "importance": 60.762325
+    },
+    {
+      "skill": "prototyping",
+      "importance": 60.295968
+    },
+    {
+      "skill": "test cases",
+      "importance": 59.882964
+    },
+    {
+      "skill": "windows",
+      "importance": 59.762023
+    },
+    {
+      "skill": "ticketing",
+      "importance": 59.679365
+    },
+    {
+      "skill": "planning",
+      "importance": 59.671017
+    },
+    {
+      "skill": "graphics basics",
+      "importance": 59.511642
+    },
+    {
+      "skill": "bug reporting",
+      "importance": 59.500295
+    },
+    {
+      "skill": "model deployment",
+      "importance": 59.38515
+    },
+    {
+      "skill": "risk management",
+      "importance": 59.295252
+    },
+    {
+      "skill": "scrum",
+      "importance": 59.279583
+    },
+    {
+      "skill": "unity",
+      "importance": 59.266024
+    },
+    {
+      "skill": "process mapping",
+      "importance": 59.222827
+    },
+    {
+      "skill": "csharp",
+      "importance": 59.077109
+    },
+    {
+      "skill": "roadmapping",
+      "importance": 59.047087
+    },
+    {
+      "skill": "performance tuning",
+      "importance": 59.011875
+    },
+    {
+      "skill": "siem",
+      "importance": 58.925446
+    },
+    {
+      "skill": "selenium",
+      "importance": 58.739596
+    },
+    {
+      "skill": "dart",
+      "importance": 58.698897
+    },
+    {
+      "skill": "automation",
+      "importance": 58.584934
+    },
+    {
+      "skill": "user research",
+      "importance": 58.566329
+    },
+    {
+      "skill": "java",
+      "importance": 58.483339
+    },
+    {
+      "skill": "excel",
+      "importance": 58.424072
+    },
+    {
+      "skill": "vulnerability assessment",
+      "importance": 58.416524
+    },
+    {
+      "skill": "incident response",
+      "importance": 58.204866
+    },
+    {
+      "skill": "typescript",
+      "importance": 57.824936
+    },
+    {
+      "skill": "swift",
+      "importance": 57.739025
+    },
+    {
+      "skill": "scripting",
+      "importance": 57.729912
+    },
+    {
+      "skill": "room",
+      "importance": 57.617135
+    },
+    {
+      "skill": "spring",
+      "importance": 57.312581
+    },
+    {
+      "skill": "coroutines",
+      "importance": 56.452229
+    }
+  ]
+}
