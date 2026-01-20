@@ -1,0 +1,634 @@
+[
+  {
+    "id": "android_dev",
+    "title": "Android Developer",
+    "requiredSkills": ["kotlin", "jetpack compose", "mvvm", "git", "rest api"],
+    "optionalSkills": ["firebase auth", "firebase firestore", "room", "coroutines"],
+    "tags": ["mobile", "android"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "kotlin": 5,
+      "jetpack compose": 5,
+      "mvvm": 4,
+      "git": 4,
+      "rest api": 4
+    },
+    "optionalSkillWeights": {
+      "firebase auth": 3,
+      "firebase firestore": 3,
+      "room": 3,
+      "coroutines": 4
+    },
+    "skillFocusByExperience": {
+      "0-1": ["kotlin", "git", "rest api", "mvvm", "jetpack compose"],
+      "2-3": ["coroutines", "room", "testing", "architecture", "performance"],
+      "4+": ["scalability", "offline-first", "security basics", "ci/cd", "mentoring"]
+    }
+  },
+  {
+    "id": "android_intern",
+    "title": "Android Developer Intern",
+    "requiredSkills": ["kotlin", "git", "rest api"],
+    "optionalSkills": ["jetpack compose", "mvvm", "firebase firestore"],
+    "tags": ["mobile", "android"],
+    "level": "intern",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 1,
+    "requiredSkillWeights": {
+      "kotlin": 5,
+      "git": 4,
+      "rest api": 4
+    },
+    "optionalSkillWeights": {
+      "jetpack compose": 4,
+      "mvvm": 3,
+      "firebase firestore": 2
+    },
+    "skillFocusByExperience": {
+      "0-1": ["kotlin", "git", "rest api", "jetpack compose", "mvvm"],
+      "2-3": ["coroutines", "room", "testing", "clean architecture", "debugging"],
+      "4+": ["architecture", "performance", "security basics", "ci/cd", "leadership"]
+    }
+  },
+  {
+    "id": "backend_node",
+    "title": "Backend Developer (Node.js)",
+    "requiredSkills": ["nodejs", "rest api", "sql", "git"],
+    "optionalSkills": ["postgresql", "jwt", "docker"],
+    "tags": ["backend", "api"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "nodejs": 5,
+      "rest api": 5,
+      "sql": 4,
+      "git": 4
+    },
+    "optionalSkillWeights": {
+      "postgresql": 3,
+      "jwt": 3,
+      "docker": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["nodejs", "rest api", "sql", "git", "debugging"],
+      "2-3": ["jwt", "postgresql", "docker", "testing", "security basics"],
+      "4+": ["scalability", "observability", "system design", "ci/cd", "cloud"]
+    }
+  },
+  {
+    "id": "backend_java",
+    "title": "Backend Developer (Java/Spring)",
+    "requiredSkills": ["java", "rest api", "sql", "git"],
+    "optionalSkills": ["spring", "jwt", "docker"],
+    "tags": ["backend", "api"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "java": 5,
+      "rest api": 5,
+      "sql": 4,
+      "git": 4
+    },
+    "optionalSkillWeights": {
+      "spring": 4,
+      "jwt": 3,
+      "docker": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["java", "rest api", "sql", "git", "spring"],
+      "2-3": ["jwt", "testing", "docker", "security basics", "performance"],
+      "4+": ["system design", "microservices", "observability", "ci/cd", "cloud"]
+    }
+  },
+  {
+    "id": "fullstack_web",
+    "title": "Full Stack Web Developer",
+    "requiredSkills": ["javascript", "rest api", "sql", "git"],
+    "optionalSkills": ["react", "nodejs", "docker"],
+    "tags": ["web", "fullstack"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "javascript": 5,
+      "rest api": 4,
+      "sql": 4,
+      "git": 4
+    },
+    "optionalSkillWeights": {
+      "react": 4,
+      "nodejs": 3,
+      "docker": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["javascript", "git", "rest api", "react", "sql"],
+      "2-3": ["nodejs", "testing", "docker", "auth", "performance"],
+      "4+": ["system design", "security basics", "ci/cd", "cloud", "scalability"]
+    }
+  },
+  {
+    "id": "frontend_react",
+    "title": "Frontend Developer (React)",
+    "requiredSkills": ["javascript", "react", "git"],
+    "optionalSkills": ["typescript", "rest api", "ui design"],
+    "tags": ["web", "frontend"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "javascript": 5,
+      "react": 5,
+      "git": 4
+    },
+    "optionalSkillWeights": {
+      "typescript": 4,
+      "rest api": 3,
+      "ui design": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["javascript", "react", "git", "rest api", "ui design"],
+      "2-3": ["typescript", "testing", "performance", "accessibility", "state management"],
+      "4+": ["architecture", "design systems", "security basics", "ci/cd", "mentoring"]
+    }
+  },
+  {
+    "id": "uiux_designer",
+    "title": "UI/UX Designer",
+    "requiredSkills": ["ui design", "ux research", "wireframing"],
+    "optionalSkills": ["prototyping", "figma", "accessibility"],
+    "tags": ["design", "ux"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "ui design": 5,
+      "ux research": 5,
+      "wireframing": 4
+    },
+    "optionalSkillWeights": {
+      "prototyping": 4,
+      "figma": 4,
+      "accessibility": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["wireframing", "figma", "ui design", "ux research", "prototyping"],
+      "2-3": ["accessibility", "design systems", "usability testing", "information architecture", "handoff"],
+      "4+": ["product strategy", "research ops", "leadership", "metrics", "mentoring"]
+    }
+  },
+  {
+    "id": "qa_manual",
+    "title": "QA Engineer (Manual Testing)",
+    "requiredSkills": ["testing", "test cases", "bug reporting"],
+    "optionalSkills": ["api testing", "sql", "postman"],
+    "tags": ["testing", "quality"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "testing": 5,
+      "test cases": 5,
+      "bug reporting": 4
+    },
+    "optionalSkillWeights": {
+      "api testing": 3,
+      "sql": 3,
+      "postman": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["test cases", "bug reporting", "testing", "postman", "api testing"],
+      "2-3": ["sql", "test strategy", "regression", "test management tools", "automation basics"],
+      "4+": ["process improvement", "quality metrics", "risk-based testing", "leadership", "mentoring"]
+    }
+  },
+  {
+    "id": "qa_automation",
+    "title": "QA Automation Engineer",
+    "requiredSkills": ["testing", "automation", "git", "api testing"],
+    "optionalSkills": ["selenium", "postman", "ci/cd"],
+    "tags": ["testing", "automation"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "testing": 5,
+      "automation": 5,
+      "git": 4,
+      "api testing": 4
+    },
+    "optionalSkillWeights": {
+      "selenium": 4,
+      "postman": 3,
+      "ci/cd": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["testing", "automation", "git", "api testing", "selenium"],
+      "2-3": ["ci/cd", "framework design", "test data", "reporting", "performance testing"],
+      "4+": ["automation strategy", "scalability", "observability", "leadership", "mentoring"]
+    }
+  },
+  {
+    "id": "devops_junior",
+    "title": "Junior DevOps Engineer",
+    "requiredSkills": ["git", "docker", "linux"],
+    "optionalSkills": ["ci/cd", "kubernetes", "cloud"],
+    "tags": ["devops", "cloud"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "git": 4,
+      "docker": 5,
+      "linux": 5
+    },
+    "optionalSkillWeights": {
+      "ci/cd": 4,
+      "kubernetes": 3,
+      "cloud": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["linux", "docker", "git", "ci/cd", "cloud"],
+      "2-3": ["kubernetes", "monitoring", "networking", "security basics", "infrastructure as code"],
+      "4+": ["reliability", "cost optimization", "architecture", "incident response", "mentoring"]
+    }
+  },
+  {
+    "id": "cloud_engineer",
+    "title": "Cloud Engineer",
+    "requiredSkills": ["cloud", "linux", "networking"],
+    "optionalSkills": ["docker", "kubernetes", "ci/cd"],
+    "tags": ["cloud", "infrastructure"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 3,
+    "requiredSkillWeights": {
+      "cloud": 5,
+      "linux": 5,
+      "networking": 5
+    },
+    "optionalSkillWeights": {
+      "docker": 3,
+      "kubernetes": 4,
+      "ci/cd": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["cloud", "linux", "networking", "docker", "ci/cd"],
+      "2-3": ["kubernetes", "security basics", "monitoring", "infrastructure as code", "automation"],
+      "4+": ["architecture", "reliability", "cost optimization", "governance", "mentoring"]
+    }
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "requiredSkills": ["sql", "data analysis", "excel"],
+    "optionalSkills": ["python", "data visualization", "statistics"],
+    "tags": ["data", "analytics"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "sql": 5,
+      "data analysis": 5,
+      "excel": 4
+    },
+    "optionalSkillWeights": {
+      "python": 3,
+      "data visualization": 4,
+      "statistics": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["sql", "excel", "data analysis", "data visualization", "statistics"],
+      "2-3": ["python", "dashboards", "storytelling", "data quality", "business metrics"],
+      "4+": ["analytics strategy", "experimentation", "stakeholder management", "leadership", "mentoring"]
+    }
+  },
+  {
+    "id": "data_scientist_junior",
+    "title": "Junior Data Scientist",
+    "requiredSkills": ["python", "statistics", "data analysis"],
+    "optionalSkills": ["machine learning", "data visualization", "sql"],
+    "tags": ["data", "ml"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "python": 5,
+      "statistics": 5,
+      "data analysis": 5
+    },
+    "optionalSkillWeights": {
+      "machine learning": 4,
+      "data visualization": 3,
+      "sql": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["python", "statistics", "data analysis", "sql", "data visualization"],
+      "2-3": ["machine learning", "model evaluation", "feature engineering", "experiments", "communication"],
+      "4+": ["deployment", "mlops", "product thinking", "leadership", "mentoring"]
+    }
+  },
+  {
+    "id": "ml_engineer_junior",
+    "title": "Junior Machine Learning Engineer",
+    "requiredSkills": ["python", "machine learning", "data analysis"],
+    "optionalSkills": ["model deployment", "docker", "sql"],
+    "tags": ["ml", "ai"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 3,
+    "requiredSkillWeights": {
+      "python": 5,
+      "machine learning": 5,
+      "data analysis": 4
+    },
+    "optionalSkillWeights": {
+      "model deployment": 4,
+      "docker": 3,
+      "sql": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["python", "machine learning", "data analysis", "sql", "data visualization"],
+      "2-3": ["model deployment", "docker", "mlops basics", "testing", "monitoring"],
+      "4+": ["system design", "scalability", "reliability", "cost optimization", "mentoring"]
+    }
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity Analyst",
+    "requiredSkills": ["security basics", "networking", "linux"],
+    "optionalSkills": ["incident response", "vulnerability assessment", "siem"],
+    "tags": ["security", "cybersecurity"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "security basics": 5,
+      "networking": 5,
+      "linux": 4
+    },
+    "optionalSkillWeights": {
+      "incident response": 4,
+      "vulnerability assessment": 4,
+      "siem": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["security basics", "networking", "linux", "vulnerability assessment", "incident response"],
+      "2-3": ["siem", "threat hunting", "scripting", "hardening", "report writing"],
+      "4+": ["security architecture", "risk management", "governance", "leadership", "mentoring"]
+    }
+  },
+  {
+    "id": "mobile_flutter",
+    "title": "Flutter Developer",
+    "requiredSkills": ["dart", "git", "rest api"],
+    "optionalSkills": ["firebase auth", "firebase firestore", "ui design"],
+    "tags": ["mobile", "cross-platform"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "dart": 5,
+      "git": 4,
+      "rest api": 4
+    },
+    "optionalSkillWeights": {
+      "firebase auth": 3,
+      "firebase firestore": 3,
+      "ui design": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["dart", "git", "rest api", "state management", "ui design"],
+      "2-3": ["firebase firestore", "testing", "performance", "architecture", "offline-first"],
+      "4+": ["scalability", "security basics", "ci/cd", "mentoring", "leadership"]
+    }
+  },
+  {
+    "id": "ios_dev",
+    "title": "iOS Developer",
+    "requiredSkills": ["swift", "git", "rest api"],
+    "optionalSkills": ["mvvm", "ui design", "testing"],
+    "tags": ["mobile", "ios"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "swift": 5,
+      "git": 4,
+      "rest api": 4
+    },
+    "optionalSkillWeights": {
+      "mvvm": 3,
+      "ui design": 3,
+      "testing": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["swift", "git", "rest api", "mvvm", "ui design"],
+      "2-3": ["testing", "architecture", "performance", "debugging", "security basics"],
+      "4+": ["system design", "scalability", "ci/cd", "mentoring", "leadership"]
+    }
+  },
+  {
+    "id": "database_admin_junior",
+    "title": "Junior Database Administrator",
+    "requiredSkills": ["sql", "postgresql", "backup"],
+    "optionalSkills": ["performance tuning", "linux", "security basics"],
+    "tags": ["database", "infrastructure"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 3,
+    "requiredSkillWeights": {
+      "sql": 5,
+      "postgresql": 5,
+      "backup": 4
+    },
+    "optionalSkillWeights": {
+      "performance tuning": 4,
+      "linux": 3,
+      "security basics": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["sql", "postgresql", "backup", "linux", "security basics"],
+      "2-3": ["performance tuning", "monitoring", "replication", "recovery drills", "automation"],
+      "4+": ["architecture", "scalability", "governance", "cost optimization", "mentoring"]
+    }
+  },
+  {
+    "id": "product_manager_junior",
+    "title": "Junior Product Manager",
+    "requiredSkills": ["communication", "requirements", "user research"],
+    "optionalSkills": ["roadmapping", "analytics", "agile"],
+    "tags": ["product", "management"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "communication": 5,
+      "requirements": 5,
+      "user research": 4
+    },
+    "optionalSkillWeights": {
+      "roadmapping": 4,
+      "analytics": 3,
+      "agile": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["requirements", "communication", "user research", "agile", "analytics"],
+      "2-3": ["roadmapping", "prioritization", "writing PRDs", "stakeholder management", "experiments"],
+      "4+": ["strategy", "leadership", "metrics", "portfolio management", "mentoring"]
+    }
+  },
+  {
+    "id": "project_manager_junior",
+    "title": "Junior Project Manager",
+    "requiredSkills": ["communication", "planning", "agile"],
+    "optionalSkills": ["scrum", "risk management", "documentation"],
+    "tags": ["management", "project"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "communication": 5,
+      "planning": 5,
+      "agile": 4
+    },
+    "optionalSkillWeights": {
+      "scrum": 4,
+      "risk management": 4,
+      "documentation": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["planning", "communication", "agile", "documentation", "scrum"],
+      "2-3": ["risk management", "stakeholder management", "delivery metrics", "tools", "process improvement"],
+      "4+": ["program management", "leadership", "portfolio planning", "governance", "mentoring"]
+    }
+  },
+  {
+    "id": "system_admin_junior",
+    "title": "Junior System Administrator",
+    "requiredSkills": ["linux", "networking", "troubleshooting"],
+    "optionalSkills": ["security basics", "backup", "scripting"],
+    "tags": ["infrastructure", "it support"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "linux": 5,
+      "networking": 4,
+      "troubleshooting": 5
+    },
+    "optionalSkillWeights": {
+      "security basics": 3,
+      "backup": 3,
+      "scripting": 4
+    },
+    "skillFocusByExperience": {
+      "0-1": ["linux", "troubleshooting", "networking", "backup", "security basics"],
+      "2-3": ["scripting", "monitoring", "automation", "hardening", "documentation"],
+      "4+": ["architecture", "reliability", "incident response", "leadership", "mentoring"]
+    }
+  },
+  {
+    "id": "it_support",
+    "title": "IT Support Specialist",
+    "requiredSkills": ["troubleshooting", "communication", "networking"],
+    "optionalSkills": ["windows", "linux", "ticketing"],
+    "tags": ["it support", "helpdesk"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "troubleshooting": 5,
+      "communication": 5,
+      "networking": 4
+    },
+    "optionalSkillWeights": {
+      "windows": 3,
+      "linux": 3,
+      "ticketing": 4
+    },
+    "skillFocusByExperience": {
+      "0-1": ["troubleshooting", "communication", "networking", "ticketing", "windows"],
+      "2-3": ["linux", "process improvement", "documentation", "security basics", "automation"],
+      "4+": ["specialization", "leadership", "service management", "training", "mentoring"]
+    }
+  },
+  {
+    "id": "business_analyst_junior",
+    "title": "Junior Business Analyst",
+    "requiredSkills": ["communication", "requirements", "documentation"],
+    "optionalSkills": ["sql", "analytics", "process mapping"],
+    "tags": ["business", "analysis"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "communication": 5,
+      "requirements": 5,
+      "documentation": 4
+    },
+    "optionalSkillWeights": {
+      "sql": 3,
+      "analytics": 3,
+      "process mapping": 4
+    },
+    "skillFocusByExperience": {
+      "0-1": ["requirements", "communication", "documentation", "process mapping", "analytics"],
+      "2-3": ["sql", "stakeholder management", "metrics", "workshops", "solution design"],
+      "4+": ["strategy", "leadership", "governance", "product thinking", "mentoring"]
+    }
+  },
+  {
+    "id": "game_dev_junior",
+    "title": "Junior Game Developer",
+    "requiredSkills": ["programming", "git", "problem solving"],
+    "optionalSkills": ["unity", "csharp", "graphics basics"],
+    "tags": ["games", "development"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "programming": 5,
+      "git": 4,
+      "problem solving": 5
+    },
+    "optionalSkillWeights": {
+      "unity": 4,
+      "csharp": 4,
+      "graphics basics": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["programming", "problem solving", "git", "csharp", "unity"],
+      "2-3": ["graphics basics", "game physics", "optimization", "testing", "tooling"],
+      "4+": ["architecture", "performance", "multiplayer basics", "leadership", "mentoring"]
+    }
+  },
+  {
+    "id": "software_engineer_junior",
+    "title": "Junior Software Engineer",
+    "requiredSkills": ["programming", "git", "problem solving"],
+    "optionalSkills": ["testing", "rest api", "sql"],
+    "tags": ["software", "development"],
+    "level": "junior",
+    "minExperienceYears": 0,
+    "targetExperienceYears": 2,
+    "requiredSkillWeights": {
+      "programming": 5,
+      "git": 4,
+      "problem solving": 5
+    },
+    "optionalSkillWeights": {
+      "testing": 4,
+      "rest api": 3,
+      "sql": 3
+    },
+    "skillFocusByExperience": {
+      "0-1": ["programming", "problem solving", "git", "testing", "rest api"],
+      "2-3": ["sql", "design patterns", "debugging", "clean code", "architecture"],
+      "4+": ["system design", "scalability", "security basics", "ci/cd", "mentoring"]
+    }
+  }
+]
